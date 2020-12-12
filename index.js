@@ -13,7 +13,7 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
 function makeSound(key){
     switch (key) {
       case "w":
-        var audio = new Audio("tom-1.mp3");
+        var audio = new Audio("/tom-1.mp3");
         audio.play();
 
         break;
